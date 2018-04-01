@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this,LayoutActivity.class);
+                Intent intent = new Intent(MainActivity.this,ButtonActivity.class);
                 Bundle bundle = new Bundle();
                 TextView textview = findViewById(R.id.btn_buttons);
                 String message = textview.getText().toString();
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnActivityLayouts.setOnClickListener(v -> {
 
-            Intent intent = new Intent(MainActivity.this, ButtonActivity.class);
+            Intent intent = new Intent(MainActivity.this, LayoutActivity.class);
             Bundle bundle = new Bundle();
             TextView textview = findViewById(R.id.btn_layouts);
             String message = textview.getText().toString();
