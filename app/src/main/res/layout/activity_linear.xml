@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Linear.Linear">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#207415"></View>
+        <View
+            android:background="#61cb12"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></View>
+        <View
+            android:background="@color/colorAccent"
+            android:layout_weight="2.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></View>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:layout_weight="0.4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#7ce418">dfda</View>
+        <View
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#111111">dfda</View>
+        <View
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e80f0f">dfda</View>
+    </LinearLayout>
+</LinearLayout>

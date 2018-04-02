@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SuperAndroidProject</string>
+    <string name="buttons">Buttons</string>
+    <string name="layouts">Layouts</string>
+    <string name="texts">Texts</string>
+    <string name="linear">Linear</string>
+    <string name="constraint">Constraint</string>
+    <string name="frame">Frame</string>
+</resources>
