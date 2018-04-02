@@ -55,11 +55,10 @@ public class MainActivity extends AppCompatActivity {
 
             Intent intent = new Intent(MainActivity.this, TextActivity.class);
             Bundle bundle = new Bundle();
-            TextView textView = findViewById(R.id.btn_text);
-            String text = textView.getText().toString();
+            //TextView textView = findViewById(R.id.btn_text);
+            String text = btnActivityTexts.getText().toString();
             bundle.putString("Title", text);
             intent.putExtras(bundle);
-
 
             startActivity(intent);
         });

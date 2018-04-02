@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".LayoutActivity" />
         <activity android:name=".ButtonActivity" />
-        <activity android:name=".TextActivity"></activity>
+        <activity android:name=".TextActivity" />
+        <activity android:name=".Linear.Linear"></activity>
     </application>
 
 </manifest>
