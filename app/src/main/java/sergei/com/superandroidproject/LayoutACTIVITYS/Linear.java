@@ -1,4 +1,4 @@
-package sergei.com.superandroidproject.Linear;
+package sergei.com.superandroidproject.LayoutACTIVITYS;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

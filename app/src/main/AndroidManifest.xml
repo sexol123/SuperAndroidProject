@@ -19,7 +19,15 @@
         <activity android:name=".LayoutActivity" />
         <activity android:name=".ButtonActivity" />
         <activity android:name=".TextActivity" />
-        <activity android:name=".Linear.Linear"></activity>
+        <activity android:name=".LayoutACTIVITYS.Linear" />
+        <activity
+            android:name=".LayoutACTIVITYS.Relative"
+            android:label="@string/title_activity_relative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LayoutACTIVITYS.Frame"
+            android:label="@string/title_activity_frame"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

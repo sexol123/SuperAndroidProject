@@ -6,4 +6,6 @@
     <string name="linear">Linear</string>
     <string name="constraint">Constraint</string>
     <string name="frame">Frame</string>
+    <string name="title_activity_relative">Relative</string>
+    <string name="title_activity_frame">Frame</string>
 </resources>

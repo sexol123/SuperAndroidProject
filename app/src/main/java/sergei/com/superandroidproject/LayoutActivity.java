@@ -5,12 +5,13 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.TextView;
 import android.widget.Button;
 
 import java.time.Instant;
 
-import sergei.com.superandroidproject.Linear.Linear;
+import sergei.com.superandroidproject.LayoutACTIVITYS.Frame;
+import sergei.com.superandroidproject.LayoutACTIVITYS.Linear;
+import sergei.com.superandroidproject.LayoutACTIVITYS.Relative;
 
 public class LayoutActivity extends AppCompatActivity {
 
@@ -39,7 +40,19 @@ public class LayoutActivity extends AppCompatActivity {
             startActivity(intents);
         });
 
+        findViewById(R.id.btn_relative_layout).setOnClickListener(v->{
+           // bundle.putString("Title", "Relative");
+           //Intent intentR = ;
+           startActivity(
+                   new Intent(this, Relative.class).putExtra("Title", "Relative")
+           );
+        });
 
+        findViewById(R.id.btn_frame_layout).setOnClickListener(v->{
+            startActivity(
+                    new Intent(this, Frame.class).putExtra("Title", "Frame")
+            );
+        });
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
