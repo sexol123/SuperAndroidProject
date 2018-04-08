@@ -5,6 +5,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageSwitcher;
 
@@ -18,7 +19,7 @@ public class Frame extends AppCompatActivity {
         setContentView(R.layout.activity_frame);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mImageSwitcher = findViewById(R.id.frame_image_swither);
 
         mImageSwitcher.setOnClickListener( v -> {
@@ -26,6 +27,10 @@ public class Frame extends AppCompatActivity {
         });
     }
 
-
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        onBackPressed();
+        return true;
+    }
 
 }

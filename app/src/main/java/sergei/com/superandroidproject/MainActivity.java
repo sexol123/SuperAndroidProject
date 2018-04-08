@@ -1,19 +1,17 @@
 package sergei.com.superandroidproject;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toolbar;
+
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
-
-
 
     public static final String EXTRA_MESSAGE = "Message";
     @Override
@@ -53,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnActivityTexts.setOnClickListener(v -> {
 
-            Intent intent = new Intent(MainActivity.this, TextActivity.class);
+            Intent intent = new Intent(MainActivity.this, RegistrationActivity.class);
             Bundle bundle = new Bundle();
             //TextView textView = findViewById(R.id.btn_text);
             String text = btnActivityTexts.getText().toString();

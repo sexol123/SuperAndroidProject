@@ -18,16 +18,12 @@
         </activity>
         <activity android:name=".LayoutActivity" />
         <activity android:name=".ButtonActivity" />
-        <activity android:name=".TextActivity" />
+        <activity android:name=".RegistrationActivity" />
         <activity android:name=".LayoutACTIVITYS.Linear" />
-        <activity
-            android:name=".LayoutACTIVITYS.Relative"
-            android:label="@string/title_activity_relative"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".LayoutACTIVITYS.Frame"
-            android:label="@string/title_activity_frame"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".LayoutACTIVITYS.Relative" />
+        <activity android:name=".LayoutACTIVITYS.Frame" />
+        <activity android:name=".LayoutACTIVITYS.Table" />
+        <activity android:name=".LayoutACTIVITYS.Constraint"></activity>
     </application>
 
 </manifest>

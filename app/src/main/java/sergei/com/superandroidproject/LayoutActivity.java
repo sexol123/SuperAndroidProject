@@ -9,9 +9,11 @@ import android.widget.Button;
 
 import java.time.Instant;
 
+import sergei.com.superandroidproject.LayoutACTIVITYS.Constraint;
 import sergei.com.superandroidproject.LayoutACTIVITYS.Frame;
 import sergei.com.superandroidproject.LayoutACTIVITYS.Linear;
 import sergei.com.superandroidproject.LayoutACTIVITYS.Relative;
+import sergei.com.superandroidproject.LayoutACTIVITYS.Table;
 
 public class LayoutActivity extends AppCompatActivity {
 
@@ -52,6 +54,14 @@ public class LayoutActivity extends AppCompatActivity {
             startActivity(
                     new Intent(this, Frame.class).putExtra("Title", "Frame")
             );
+        });
+
+        findViewById(R.id.btn_table_layout).setOnClickListener(v->{
+            startActivity(new Intent(this, Table.class).putExtra("Title","Table"));
+        });
+
+        findViewById(R.id.btn_constraint_layout).setOnClickListener(v->{
+            startActivity(new Intent(this, Constraint.class).putExtra("Title", "ConstraintLogin"));
         });
     }
     @Override
